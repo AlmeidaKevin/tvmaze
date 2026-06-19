@@ -1,0 +1,37 @@
+name: tvmaze
+description: App de series con TVMaze API, CRUD en MongoDB Atlas e Infinite Scrolling.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP
+  http: ^1.2.1
+
+  # MongoDB Atlas (via Realm/Atlas App Services REST)
+  mongo_dart: ^0.10.2
+
+  # UUID para IDs locales
+  uuid: ^4.3.3
+
+  # Imágenes con caché
+  cached_network_image: ^3.3.1
+
+  # Manejo de HTML en sinopsis de TVMaze
+  flutter_html: ^3.0.0-beta.2
+
+  # Iconos extra
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
