@@ -69,8 +69,8 @@ flutter doctor
 
 ### 1. Clona el repositorio
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
+git clone https://github.com/AlmeidaKevin/tvmaze.git
+cd tvmaze
 ```
 
 ### 2. Pega tu connection string de MongoDB Atlas
